@@ -11,20 +11,20 @@ function Services() {
 
   const slides = [
     {
-      url: 'assets/img/scanner.jpg',
+      url: '/assets/img/scanner.jpg',
     },
     {
-      url: 'assets/img/banner2.jpg',
+      url: '/assets/img/banner2.jpg',
     },
     {
-      url: 'assets/img/banner2.jpg',
+      url: '/assets/img/banner2.jpg',
     },
 
     {
-      url: 'assets/img/banner2.jpg',
+      url: '/assets/img/banner2.jpg',
     },
     {
-      url: 'assets/img/banner2.jpg',
+      url: '/assets/img/banner2.jpg',
     },
   ];
 

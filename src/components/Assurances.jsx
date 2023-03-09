@@ -17,7 +17,7 @@ function Assurances() {
                className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
               >
                 <img
-                  src="assets/img/clients/axa.png"
+                  src="/assets/img/clients/axa.png"
                   alt="image"
                  className="h-20 w-full"
                 />
@@ -27,7 +27,7 @@ function Assurances() {
                className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
               >
                 <img
-                  src="assets/img/clients/ascoma.png"
+                  src="/assets/img/clients/ascoma.png"
                   alt="image"
                  className="h-10 w-full"
                 />
@@ -37,7 +37,7 @@ function Assurances() {
                className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
               >
                 <img
-                  src="assets/img/clients/nsia.jpg"
+                  src="/assets/img/clients/nsia.jpg"
                   alt="image"
                  className="h-10 w-full"
                 />
@@ -47,7 +47,7 @@ function Assurances() {
                className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
               >
                 <img
-                  src="assets/img/clients/chanas.png"
+                  src="/assets/img/clients/chanas.png"
                   alt="image"
                  className="h-10 w-full"
                 />
@@ -57,7 +57,7 @@ function Assurances() {
                className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
               >
                 <img
-                  src="assets/img/clients/atlantique.png"
+                  src="/assets/img/clients/atlantique.png"
                   alt="image"
                  className="h-10 w-full"
                 />
@@ -67,7 +67,7 @@ function Assurances() {
                className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
               >
                 <img
-                  src="assets/img/clients/zenith.jpg"
+                  src="/assets/img/clients/zenith.jpg"
                   alt="image"
                  className="h-10 w-full"
                 />

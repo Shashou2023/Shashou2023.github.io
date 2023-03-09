@@ -7,7 +7,7 @@ export default function Jumbotron() {
   
     <div id="heading"
       className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
-      style={{backgroundImage: "url('assets/img/banner2.jpg')", height: "400px"}}>
+      style={{backgroundImage: "url('/assets/img/banner2.jpg')", height: "400px"}}>
       <div
         className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
         style={{backgroundColor: "rgba(0, 0, 0, 0.6)"}}>

@@ -41,7 +41,7 @@ return(
       data-te-collapse-item>
   <div className="flex items-center flex-shrink-0 text-black mr-6">
   <img
-            src="assets/img/logo.jpg"
+            src="/assets/img/logo.jpg"
             className="rounded-full"
             style={{height: "40px", width: "40px"}}
             alt=""
