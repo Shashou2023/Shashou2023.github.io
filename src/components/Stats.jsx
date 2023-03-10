@@ -11,7 +11,7 @@ function Stats() {
         <div class="p-4 bg-yellow-400 rounded-md shadow-lg inline-block mb-6">
         <span class="w-5 h-5">😄</span>
         </div>
-        <h3 class="text-2xl font-bold text-blue-600 mb-4">1000</h3>
+        <h3 class="text-2xl font-bold text-blue-600 mb-4">70%</h3>
         <h5 class="text-lg font-medium text-gray-500">Taux de fréquentation</h5>
       </div>
 
@@ -19,7 +19,7 @@ function Stats() {
         <div class="p-4 bg-yellow-400 rounded-md shadow-lg inline-block mb-6">
         <i class="fa-solid fa-ranking-star w-5 h-5"></i>
         </div>
-        <h3 class="text-2xl font-bold text-blue-600 mb-4">70%</h3>
+        <h3 class="text-2xl font-bold text-blue-600 mb-4">2</h3>
         <h5 class="text-lg font-medium text-gray-500">Rang national</h5>
       </div>
 
@@ -27,7 +27,7 @@ function Stats() {
         <div class="p-4 bg-yellow-400 rounded-md shadow-lg inline-block mb-6">
         <i class="fas fa-award w-5 h-5"></i>
         </div>
-        <h3 class="text-2xl font-bold text-blue-600 mb-4">49</h3>
+        <h3 class="text-2xl font-bold text-blue-600 mb-4">10</h3>
         <h5 class="text-lg font-medium text-gray-500">Recompenses</h5>
       </div>
     </div>
