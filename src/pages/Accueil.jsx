@@ -7,6 +7,9 @@ import Services from '../components/Services';
 import Stats from '../components/Stats';
 import Personnel from '../components/Personnel';
 import Assurances from '../components/Assurances';
+import Pricing from '../components/Pricing';
+import Patient from '../components/Patient';
+import Team from '../components/Team';
 import Footer from '../components/Footer';
 export default function Acceuil() {
   return (
@@ -18,6 +21,9 @@ export default function Acceuil() {
       <Stats/>
       <Personnel/>
       <Assurances/>
+      <Pricing />
+      <Patient />
+      <Team />
       <Footer />
     </div>
   );

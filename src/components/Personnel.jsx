@@ -5,13 +5,13 @@ import React from 'react';
 function Personnel() {
   return (
     <section className="mb-5 text-gray-800 text-center p-4" id="personnel">
-    <h2 className="text-2xl font-bold mb-5 ">Nous disposons d'un <span className="text-blue-600">Personnel </span> qualifiée, disponible 24h/24 pour vous offrir les meilleurs soins</h2>
+    <h2 className="text-2xl font-bold mb-5 ">Nous disposons d'un <span className="text-blue-400">Personnel </span> qualifiée, disponible 24h/24 pour vous offrir les meilleurs soins</h2>
     <h4 className="text-xl  mb-5 italic">Quelques images de nos experts</h4>
     <div className="grid md:grid-cols-3 gap-x-6 lg:gap-x-12">
       <div className="mb-5 lg:mb-0">
         <div className="bg-white block rounded-lg shadow-lg">
           <div className="relative overflow-hidden bg-no-repeat bg-cover">
-            <img src="/assets/img/team/Prfouda.jpg" className="w-full rounded-t-lg" />
+            <img src="/assets/img/team/Prfouda.jpg" className="w-full rounded-t-lg" alt="lead hopital central"/>
             <a href="#!">
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
             </a>
@@ -52,7 +52,7 @@ function Personnel() {
       <div className="mb-6 lg:mb-0">
         <div className="bg-white block rounded-lg shadow-lg">
           <div className="relative overflow-hidden bg-no-repeat bg-cover">
-            <img src="/assets/img/team/Prongolo.jfif" className="w-full rounded-t-lg" />
+            <img src="/assets/img/team/Prongolo.jfif" alt="lead hopital central" className="w-full rounded-t-lg" />
             <a href="#!">
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
             </a>
@@ -93,7 +93,7 @@ function Personnel() {
       <div className="">
         <div className="bg-white block rounded-lg shadow-lg">
           <div className="relative overflow-hidden bg-no-repeat bg-cover">
-            <img src="/assets/img/team/bwele.jpg" className="w-full rounded-t-lg" />
+            <img src="/assets/img/team/bwele.jpg" alt="lead hopital central" className="w-full rounded-t-lg" />
             <a href="#!">
               <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
             </a>

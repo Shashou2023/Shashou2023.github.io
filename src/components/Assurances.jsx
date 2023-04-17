@@ -7,7 +7,7 @@ function Assurances() {
     <section className="bg-white py-5 lg:py-[120px]" id="assurances">
    
       <h2 class="text-2xl font-bold mb-2 text-center">
-      Plusieurs entreprises d'<span class="text-blue-600">Assurances</span> nous font confiance
+      Plusieurs entreprises d'<span class="text-blue-400">Assurances</span> nous font confiance
     </h2>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -18,7 +18,7 @@ function Assurances() {
               >
                 <img
                   src="/assets/img/clients/axa.png"
-                  alt="image"
+                  alt="axa"
                  className="h-20 w-full"
                 />
               </a>
@@ -28,7 +28,7 @@ function Assurances() {
               >
                 <img
                   src="/assets/img/clients/ascoma.png"
-                  alt="image"
+                  alt="ascoma"
                  className="h-10 w-full"
                 />
               </a>
@@ -38,7 +38,7 @@ function Assurances() {
               >
                 <img
                   src="/assets/img/clients/nsia.jpg"
-                  alt="image"
+                  alt="nsia"
                  className="h-10 w-full"
                 />
               </a>
@@ -48,7 +48,7 @@ function Assurances() {
               >
                 <img
                   src="/assets/img/clients/chanas.png"
-                  alt="image"
+                  alt="chanas"
                  className="h-10 w-full"
                 />
               </a>
@@ -58,7 +58,7 @@ function Assurances() {
               >
                 <img
                   src="/assets/img/clients/atlantique.png"
-                  alt="image"
+                  alt="atlantique"
                  className="h-10 w-full"
                 />
               </a>
@@ -68,7 +68,7 @@ function Assurances() {
               >
                 <img
                   src="/assets/img/clients/zenith.jpg"
-                  alt="image"
+                  alt="zenith"
                  className="h-10 w-full"
                 />
               </a>

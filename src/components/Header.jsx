@@ -49,10 +49,10 @@ return(
     <span className="font-semibold text-xl tracking-tight">HCY</span>
   </div>
    
-      <ul
+  <ul
         className="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
         data-te-navbar-nav-ref>
-        <li className="lg:pr-2 nvl nav-item">
+        <li className="lg:pr-2  nav-item">
           <Link
           to="heading"
           spy={true} smooth={true} offset={-50} duration={700} onClick={closeMenu}
@@ -61,7 +61,7 @@ return(
             data-te-nav-link-ref
             >Acceuil</Link>
         </li>
-        <li className="lg:pr-2  nvl nav-item">
+        <li className="lg:pr-2   nav-item">
           <Link
           to="services"
           spy={true} smooth={true} offset={-50} duration={700} onClick={closeMenu}          
@@ -72,22 +72,33 @@ return(
         </li>
 
 
-        <li className="lg:pr-2  nvl nav-item">
+        <li className="lg:pr-2   nav-item">
           <Link
-          to="personnel"
+          to="patient"
           spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}          
             className="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
-            href="#personnel"
+            href="#patient"
             data-te-nav-link-ref
-            >Personnel</Link >
+            >Patients </Link >
         </li>
 
-        <li className="lg:pr-2 nvl nav-item">
+        <li className="lg:pr-2  nav-item">
           <Link
-          to="assurances"
+          to="tarifs"
           spy={true} smooth={true} offset={50} duration={700} onClick={closeMenu}          
             className="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
-            href="#assurances"
+            href="#tarifs"
+            data-te-nav-link-ref
+            >Tarification</Link >
+        </li>
+
+
+        <li className="lg:pr-2  nav-item">
+          <Link
+          to="team"
+          spy={true} smooth={true} offset={50} duration={700} onClick={closeMenu}          
+            className="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+            href="#team"
             data-te-nav-link-ref
             >Contacts</Link >
         </li>
@@ -96,7 +107,8 @@ return(
     
     </div>
     <div className="relative" data-te-dropdown-ref>
-        <a href="#" target="_blank">   <button
+    
+        <a href="#">   <button
       type="button"
       className="inline-block rounded-full bg-yellow-500 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#54b4d3] transition duration-150 ease-in-out hover:bg-info-600 hover:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.3),0_4px_18px_0_rgba(84,180,211,0.2)] focus:bg-info-600 focus:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.3),0_4px_18px_0_rgba(84,180,211,0.2)] focus:outline-none focus:ring-0 active:bg-info-700 active:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.3),0_4px_18px_0_rgba(84,180,211,0.2)]">
       Prendre RDV
